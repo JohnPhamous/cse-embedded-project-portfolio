@@ -1,7 +1,7 @@
 <template>
     <div class="project">
         <div class="text">
-            <h1>{{ project.title }}</h1>
+            <h1 class="project-title">{{ project.title }}</h1>
             <!-- <p class="subtitle">{{ project.subtitle }}</p> -->
             <p class="description">
                 {{ project.description }}
@@ -16,7 +16,7 @@
                 >
                 </contributor>
             </span>
-            <a :href="project.link" class="project-link">
+            <a :href="project.link" class="project-link" target="_blank">
                 {{ project.linkTitle }}
             </a>
         </div>
@@ -41,6 +41,9 @@ export default {
 .project {
   display: flex;
   margin-bottom: 50px;
+}
+.project-title {
+  margin-top: 0px;
 }
 h1 {
   font-family: "Roboto", sans-serif;

@@ -6,7 +6,7 @@
             class="contributor-image"
         >
         <h3 class="contributor-name">
-            <a href="contributor.url">
+            <a :href="contributor.url" target="_blank">
                 {{ contributor.name }}
             </a>
         </h3>
@@ -21,7 +21,7 @@ export default {
 
 <style scoped>
 .contributor {
-  width: 50px;
+  width: 80px;
   text-align: center;
   margin-right: 25px;
 }
@@ -33,7 +33,7 @@ export default {
 .contributor-name {
   font-family: "Work Sans", sans-serif;
   font-weight: 400;
-  margin-top: 10px;
+  margin-top: 0px;
   font-size: 0.8em;
 }
 a {
