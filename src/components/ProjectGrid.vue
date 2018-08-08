@@ -22,7 +22,7 @@ export default {
           title: "Soccer Pong",
           subtitle: "iOS App",
           description:
-            "Soccer Pong is an iOS game developed independently by James Luo in his free. The game is a hackey style pong game that supports a global leaderboard and allows for users to play with multiple people locally. Soccer Pong is now available in the App Store for free.",
+            "Soccer Pong is an iOS game developed independently by James Luo in his free time. The game is a hockey style pong game that supports a global leaderboard and allows for users to play with multiple people locally. Soccer Pong is now available in the App Store for free.",
           image:
             "http://csebcoe.ucr.acsitefactory.com/sites/g/files/rcwecm756/files/soccer-pong.jpg",
           contributors: [

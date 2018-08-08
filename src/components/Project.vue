@@ -89,6 +89,13 @@ p {
 
 .project-image {
   width: 100%;
+  transition-duration: 0.3s;
+}
+
+.project-image:hover {
+  transform: translateY(-5px);
+  box-shadow: -10px -10px 30px 4px rgba(0, 0, 0, 0.1),
+    10px 10px 30px 4px rgba(45, 78, 255, 0.15);
 }
 
 hr {
