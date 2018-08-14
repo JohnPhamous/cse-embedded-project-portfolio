@@ -96,6 +96,7 @@ p {
   transform: translateY(-5px);
   box-shadow: -10px -10px 30px 4px rgba(0, 0, 0, 0.1),
     10px 10px 30px 4px rgba(45, 78, 255, 0.15);
+  border-radius: 5px;
 }
 
 hr {

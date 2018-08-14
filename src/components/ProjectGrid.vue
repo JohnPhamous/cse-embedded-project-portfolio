@@ -79,7 +79,7 @@ export default {
           description:
             "1:8th scale RC car that in almost every way replicates a four-wheel drive electric  race car. Custom 32 bit ARM Processor for testing complex driving algorithms, like torque vectoring, traction control, and software wheel differential. Custom 3D Printed Power train, Custom PCBA, and ultrasonic and sonar sensor for collision detection.",
           image:
-            "http://csebcoe.ucr.acsitefactory.com/sites/g/files/rcwecm756/files/Screenshot_2018-08-07%20sammysresume%20Fullscreen%20Page.png",
+            "http://csebcoe.ucr.acsitefactory.com/sites/g/files/rcwecm756/files/Screenshot_2018-08-13%20sammysresume%20Fullscreen%20Page%281%29.jpg",
           contributors: [
             {
               name: "Salvatore Macaluso",
@@ -89,8 +89,25 @@ export default {
             }
           ],
           link:
-            "https://www.sammymacaluso.com/fullscreen-page/comp-iqtuyfne/28c0ff75-041b-44a1-ac2c-549d736f0527/6/%3Fi%3D6%26p%3Dihge1%26s%3Dstyle-jhpexs4r",
+            "https://www.sammymacaluso.com/fullscreen-page/comp-iqtuyfne/5f7c487d-3df7-428a-be09-bdc708ff9ed4/4/%3Fi%3D4%26p%3Dihge1%26s%3Dstyle-jhpexs4r",
           linkTitle: "Learn More"
+        },
+        {
+          title: "Coolors.AI",
+          subtitle: "Data Science",
+          description:
+            "Coolors.AI allows you to generate the perfect color scheme for text editors to terminals. This is done by training a neural network on a dataset that you curate for it.",
+          image: "https://johnpham.net/portfolio/coolorsai.jpg",
+          contributors: [
+            {
+              name: "John Pham",
+              image:
+                "https://avatars1.githubusercontent.com/u/16027268?s=460&v=4",
+              url: "https://www.johnpham.net"
+            }
+          ],
+          link: "http://coolorsai.com/",
+          linkTitle: "Demo"
         }
       ]
     };
